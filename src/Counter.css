@@ -1,42 +1,43 @@
+/* Counter.css */
 .counter-button {
-    padding: 8px 16px;
-    margin: 4px;
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  .input{
-    padding: 8px 16px;
-    margin: 4px;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  .Output-button{
-    padding: 8px 16px;
-    margin: 4px;
-    background-color: #f9fff9;
-    border: rosybrown;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    display: inline-block;
-    font-size:30px;
- 
-    border-radius: 4px;
-  }
-  
+  padding: 8px 16px;
+  margin: 4px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
 
-  .counter-button:hover {
-    background-color: #45a049; /* Darker Green */
+.input {
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.Output-button {
+  padding: 8px 16px;
+  margin: 4px;
+  background-color: #f9fff9;
+  border: rosybrown;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 4px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  .Output-button {
+    font-size: 20px;
   }
-  
-  .counter-button:active {
-    background-color: #3e8e41; /* Active Color */
-  }
-  
+}
+
+
